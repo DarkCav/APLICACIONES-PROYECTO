@@ -42,7 +42,7 @@ namespace CapaPresentacion
 
         private void txtUsuario_KeyPress(object sender, KeyPressEventArgs e)
         {
-
+            new FrmRegistroLogin().Show();
         }
 
         private void txtContra_KeyPress(object sender, KeyPressEventArgs e)
