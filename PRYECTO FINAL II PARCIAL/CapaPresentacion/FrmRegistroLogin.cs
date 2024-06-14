@@ -78,6 +78,7 @@ namespace CapaPresentacion
             DateTime fechaNacimiento = dateTimePicker1.Value;
             string correo = txtCorreo.Text;
 
+
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password) ||
                 string.IsNullOrWhiteSpace(cedula) || string.IsNullOrWhiteSpace(nombre) ||
                 string.IsNullOrWhiteSpace(apellido))
